@@ -102,23 +102,22 @@
 			-moz-box-shadow:    0px 0px 20px 0px rgba(0, 119, 181, 1);
 			box-shadow:         0px 0px 20px 0px rgba(0, 119, 181, 1);
         	}
+		
+		img.bounce
+		{
+			border: 5px solid #ccc;
+			float: left;
+			margin: 15px;
+			-webkit-transition: margin 0.5s ease-out;
+			-moz-transition: margin 0.5s ease-out;
+			-o-transition: margin 0.5s ease-out;
+		}
+
 		img.bounce:hover
 		{
-			@keyframes shake
-			{
-				0% { transform: translate(0px, -5px); }
-			  	10% { transform: translate(0px, -10px); }
-				20% { transform: translate(0px, -10px); }
-				30% { transform: translate(0px, -10px); }
-				40% { transform: translate(0px, -10px); }
-				50% { transform: translate(0px, -10px); }
-				60% { transform: translate(0px, -10px); }
-				70% { transform: translate(0px, -10px); }
-				80% { transform: translate(0px, -10px); }
-				90% { transform: translate(0px, -10px); }
-				100% { transform: translate(0px, -10px); }
-			}
+			margin-top: 2px;
 		}
+
 	</style>
 	<body>
 
@@ -239,7 +238,7 @@
 					<div class="col-lg-4 col-md-6">
 						<a href="javascript:void" class="st_single_prom_item m-sm-b-70 st_single_prom_item_v5">
 							<div class="st_promo_icon">
-								<img class = "bounce" src="assets/images/Engage2.png" class="img-fluid pillar-img" alt="">
+								<img src="assets/images/Engage2.png" class="img-fluid pillar-img" alt="">
 							</div>
 							<article class="st_promo_content">
 								<h3 class="h3 heavy-font-weight" style="margin-bottom: 10px">Engage</h3>
